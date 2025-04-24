@@ -1,12 +1,13 @@
 
+/*Comment
 body {
-    /*text-align: right;*/
+    /*text-align: right;
 }
 
 p {
     width: 200px;
     height: 300px;
-    /*background-color: beige;*/
+    background-color: beige;
     border: 1px solid black;
     padding: 10px 20px 10px 20px;
     margin: 10px;
@@ -14,8 +15,8 @@ p {
     text-align: initial;
     vertical-align: top;
 }
-
-
+*/
+/*
 a {
     width: 100x;
     height: 50px;
@@ -25,18 +26,30 @@ a {
     display: inline-block;
 }
 
-/*display inline-block means that the elements stand next to each other, but they are still block elements. */
+display inline-block means that the elements stand next to each other, but they are still block elements. 
 
-
-
+*/
 
 /*example*/
 
-a {
-    color: inherit;
-    text-decoration: none;
+ul {
+    text-align: center;
 }
+
 
 .nav-list-item {
     display: inline;
 }
+
+
+a {
+    color: inherit;
+    text-decoration: none;
+    border: 1px solid grey;
+    padding: 15px 25px;
+    margin: 0px 20px;
+    display: inline-block;
+    width: 70px;
+    text-align: center;
+}
+
